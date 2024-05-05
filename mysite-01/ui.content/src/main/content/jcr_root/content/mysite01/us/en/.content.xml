@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2024-03-15T08:16:30.910+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/mysite01/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="en"
+        sling:resourceType="mysite01/components/page"
+        pageTitle="Mysite01">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="mysite01/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite01/components/container">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite01/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite01/components/container"
+                    layout="responsiveGrid">
+                    <teaser
+                        jcr:description="&lt;p>Don't stop half way, go for the top!&lt;/p>&#xd;&#xa;"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Epic Journey"
+                        sling:resourceType="mysite01/components/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </teaser>
+                    <teaser_copy
+                        jcr:description="&lt;p>Don't stop half way, go for the top!&lt;/p>&#xd;&#xa;"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Epic Journey"
+                        sling:resourceType="mysite01/components/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </teaser_copy>
+                    <teaser_copy_1579324932
+                        jcr:description="&lt;p>Don't stop half way, go for the top!&lt;/p>&#xd;&#xa;"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Epic Journey"
+                        sling:resourceType="mysite01/components/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </teaser_copy_1579324932>
+                    <helloworld
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite01/components/helloworld"
+                        text="lalala :)"/>
+                    <personinfo
+                        jcr:created="{Date}2024-03-13T18:13:47.076+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2024-03-13T18:13:47.076+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite01/components/personinfo"/>
+                    <personinfo_1979441418
+                        jcr:created="{Date}2024-03-13T18:14:01.117+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2024-03-13T18:14:01.117+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite01/components/personinfo"/>
+                    <surgeinfo
+                        jcr:created="{Date}2024-03-13T18:15:52.626+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2024-03-13T18:15:52.626+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite01/components/surgeinfo"/>
+                    <image
+                        jcr:created="{Date}2024-03-13T22:13:51.348+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2024-03-13T22:15:27.744+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite01/components/image"
+                        alt="Image added in en..."
+                        altValueFromDAM="false"
+                        displayPopupTitle="false"
+                        fileReference="/content/dam/mysite01/asset.jpg"
+                        imageFromPageImage="false"
+                        isDecorative="false"
+                        linkTarget="_self"
+                        titleValueFromDAM="false"/>
+                    <contentfragment
+                        jcr:created="{Date}2024-03-15T08:04:19.729+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2024-03-15T08:09:21.172+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite01/components/contentfragment"
+                        displayMode="multi"
+                        fragmentPath="/content/dam/mysite01/empcf"
+                        paragraphScope="all"
+                        text="EmpCF Advanced EmpName PhoneNo EmpDesc DOB Country Tags Select you Cf Vasu EditEmpData"
+                        variationName="master"/>
+                    <contentfragment_985932466
+                        jcr:created="{Date}2024-03-15T08:16:14.112+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2024-03-15T08:16:30.910+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite01/components/contentfragment"
+                        displayMode="multi"
+                        fragmentPath="/content/dam/mysite01/empcf"
+                        paragraphScope="all"
+                        text="EmpCF Advanced EmpName Ramu PhoneNo 5.55555555E8 EmpDesc This is ramu from ongole DOB 2024-03-25 08:15 Country India Tags we-retail:activity/biking Select you Cf /content/we-retail/ca Vasu EditEmpData"
+                        variationName="ramu"/>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+    <main-content/>
+</jcr:root>

@@ -1,0 +1,9 @@
+<sly data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html">
+    <sly data-sly-call="${clientlib.js @ categories='mysite01.search'}"/>
+</sly>
+
+<form id="fulltext-search" action="/bin/mysite/search" method="GET" accept-charset="UTF-8" >
+  <label for="searchterm">Search Here:</label><br>
+  <input type="text" id="keyword" name="keyword"><br>
+  <input title="Search" type="submit" value="Search">
+</form> 

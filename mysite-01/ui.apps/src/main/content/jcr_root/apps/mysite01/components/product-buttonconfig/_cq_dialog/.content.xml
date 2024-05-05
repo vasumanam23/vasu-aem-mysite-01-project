@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Properties"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+        <items jcr:primaryType="nt:unstructured">
+            <column
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/container">
+                <items jcr:primaryType="nt:unstructured">
+                    <jsonurl
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                        fieldLabel="Product Dropdown"
+                        name="./jsonUrl">
+                        <items jcr:primaryType="nt:unstructured">
+                            <url1
+                                jcr:primaryType="nt:unstructured"
+                                text="Url1"
+                                value="https://jsonplaceholder.typicode.com/users/1"/>
+                            <url2
+                                jcr:primaryType="nt:unstructured"
+                                text="Url2"
+                                value="https://jsonplaceholder.typicode.com/users/2"/>
+                            <url3
+                                jcr:primaryType="nt:unstructured"
+                                text="Url3"
+                                value="https://jsonplaceholder.typicode.com/users/3"/>
+                            <url4
+                                jcr:primaryType="nt:unstructured"
+                                text="Url4"
+                                value="https://jsonplaceholder.typicode.com/users/4"/>
+                        </items>
+                    </jsonurl>
+                </items>
+            </column>
+        </items>
+    </content>
+</jcr:root>

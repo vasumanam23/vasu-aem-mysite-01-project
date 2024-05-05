@@ -1,0 +1,16 @@
+<h1> Site Info Component </h1>
+
+<sly data-sly-use.site="com.mysite.core.models.SiteInfoModel" />
+<sly data-sly-test=${site.text}>
+Text   :${site.text}</br>
+</sly>
+
+<sly data-sly-test=${site.country}>
+Country:${site.country}</br>
+</sly>
+
+<sly data-sly-test=${site.color}>
+Color :${site.color}</br>
+</sly>
+
+${properties.date}

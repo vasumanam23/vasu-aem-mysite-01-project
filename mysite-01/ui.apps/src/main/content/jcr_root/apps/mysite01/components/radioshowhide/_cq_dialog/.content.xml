@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Props"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    extraClientlibs="[aemgeeks.components.dialog.editor]">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs">
+                <items jcr:primaryType="nt:unstructured">
+                    <courses
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Courses"
+                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <course-list
+                                granite:class="cq-dialog-radio-showhide"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/form/radiogroup"
+                                name="./courseList">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <java
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Java"
+                                        value="java"/>
+                                    <python
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Python"
+                                        value="python"/>
+                                    <dotnet
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Dotnet"
+                                        value="dotnet"/>
+                                    <oracle
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Oracle"
+                                        value="oracle"/>
+                                </items>
+                                <granite:data
+                                    jcr:primaryType="nt:unstructured"
+                                    cq-dialog-radio-showhide-target=".radio-showhide"/>
+                            </course-list>
+                            <java
+                                granite:class="hide radio-showhide"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <name
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                        fieldLabel="Java"
+                                        name="./java"/>
+                                    <fees
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
+                                        fieldLabel="Fees"
+                                        name="./fees"/>
+                                </items>
+                                <granite:data
+                                    jcr:primaryType="nt:unstructured"
+                                    showhideradiovalue="java"/>
+                            </java>
+                        </items>
+                    </courses>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>
