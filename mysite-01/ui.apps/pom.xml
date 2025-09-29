@@ -120,12 +120,12 @@
             <version>${project.version}</version>
         </dependency>
 
-        <dependency>
+        <!-- <dependency>
             <groupId>com.mysite</groupId>
             <artifactId>mysite-01.ui.frontend</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
-        </dependency>
+        </dependency> -->
 
 
         <dependency>

@@ -1,0 +1,18 @@
+<sly data-sly-use.imageCard="com.task63.core.models.ImageCardModel" />
+
+<div class="cmp-image-card">
+    <figure>
+        <!-- Render the image -->
+        <img 
+            src="${imageCard.fileReference}" 
+            alt="${imageCard.alt}" 
+            class="cmp-image-card__image" />
+
+        <!-- Render caption if present -->
+        
+            <div>
+                ${imageCard.caption}
+            </div>
+       
+    </figure>
+</div>

@@ -1456,9 +1456,17 @@ Bundle-DocURL:
         <scope>test</scope>
                     
       </dependency>
+
+      <dependency>
+       <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+       <version>1.18.32</version> <!-- use latest stable -->
+        <scope>provided</scope>
+     </dependency> 
 	         
     </dependencies>
-        
+
+       
   </dependencyManagement>
   
 </project>
